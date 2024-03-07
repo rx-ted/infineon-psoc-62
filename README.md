@@ -70,6 +70,10 @@ msh > lcd_demo
 msh > 
 ```
 
+demo:  
+![](./figures/demo1.png)
+![](./figures/demo1.mp4)
+
 ## 代码
 
 Define pinouts to connect LCD board.
@@ -95,7 +99,9 @@ TFTLCD tft = TFTLCD(LCD_CS, LCD_CD, LCD_WR, LCD_RD, LCD_RESET, 240, 320, d8);
 `tft.drawString(x,y,string,front_color)`  
 
 > **Can see lcd sources to get information.**
->
+
+[github](https://github.com/rx-ted/infineon-psoc-62)
+
 ## 联系人
 
 维护人:
