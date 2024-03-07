@@ -4,6 +4,8 @@
 
 本文档为 `RT-Thread` 为 `PSoC6 CY8CKIT-062S2-43012`开发板提供的 BSP (板级支持包) 说明。
 
+This is a fast display driver for interfacing ILI9341 LCD display with infineon microcontroller over an 8bit parallel (8080-II/I) bus. It's mainly written for my personal usage.
+
 ## 开发板介绍
 
 `Psoc6-evaluationkit-062S2` 是 RT-Thread 联合英飞凌推出的一款集成32位双核CPU子系统（ ARM Cortex-M4 和 ARM Cortex-M0）的开发板，其具有单周期乘法的150-MHz Arm Cortex-M4F CPU (浮点和存储器保护单元)，100-MHz Cortex M0+ CPU，带单周期乘法和MPU，可以充分发挥 PSoC6 双核芯片性能。
