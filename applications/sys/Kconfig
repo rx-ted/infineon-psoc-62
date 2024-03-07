@@ -1,0 +1,6 @@
+menu "Arduino module"
+    config BSP_USING_APP_ARDUINO
+    bool "Enable arduino module"
+    default y
+    
+endmenu

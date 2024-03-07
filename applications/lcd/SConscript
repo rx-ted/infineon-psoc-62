@@ -1,0 +1,12 @@
+from building import *
+import os
+
+cwd = GetCurrentDir()
+src = []
+CPPPATH =[]
+if GetDepend(['BSP_USING_APP_LCD']):
+    src.append('lcd.cpp')
+    CPPPATH.append(cwd)
+group = DefineGroup('LCD ILI9341 8080', src, depend=['BSP_USING_APP_LCD'], CPPPATH=CPPPATH)
+
+Return('group')

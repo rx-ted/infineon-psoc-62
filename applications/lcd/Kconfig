@@ -1,0 +1,16 @@
+menu "lcd module"
+    menuconfig BSP_USING_APP_LCD
+        bool "Enable lcd module"
+        default y
+        select RT_USING_APP_LCD
+        if BSP_USING_APP_LCD
+            config BSP_USING_APP_ARDUINO
+                bool "Enable Arduino"
+                default y
+
+            config BSP_USING_APP_FONTS
+                bool "Enable Fonts"
+                bool "Enable fonts"
+                default y
+        endif
+endmenu

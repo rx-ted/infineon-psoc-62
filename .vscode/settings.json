@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.styl": "css",
+        "lv_demos.h": "c",
+        "*.tcc": "cpp",
+        "fstream": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "drv_common.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}

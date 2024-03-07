@@ -1,0 +1,2 @@
+source "applications/lcd/Kconfig"
+source "applications/sys/Kconfig"
